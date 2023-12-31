@@ -12,7 +12,7 @@ function App() {
   const [location, setLocation] = useState("")
 
   const API_KEY = 'f66f69695801f6ea790528228bdda49f'
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${API_KEY}`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${API_KEY}`
 
   const searchLocation= (event)=>{
     if(event.keyCode == 13){ {/* this means at the press of enter*/}
