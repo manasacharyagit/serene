@@ -8,7 +8,7 @@ export const Weather = ({weatherData}) => {
         <div>
         </div>
         {/* {weatherData && weatherData.weather ? ( */}
-            <div className='w-auto lg:w-[500px`] h-auto bg-blue-900 justify-center items-center text-white shadow-lg rounded-xl m-auto relative px-8 top-[10%] bottom-[10%] overflow-hidden'>
+            <div className='w-auto lg:w-[500px] h-auto bg-blue-900 justify-center items-center text-white shadow-lg rounded-xl m-auto relative px-8 top-[10%] bottom-[10%] overflow-hidden'>
                 <div className='flex justify-between w-full'>
                     <div className='w-1/2 my-4 mx-auto flex justify-between items-center'>
                         <div className="flex flex-col item-start justify-between h-full">
